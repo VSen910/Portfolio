@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, deepskyblue, #000000, #2f074f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* body {
+  background-color: #222831;
+} */
+
+/* #title {
+  height: 80vh;
+  background-image: url(./assets/images/backgroud.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+} */
+
+#title {
+  height: 100vh;
+}
+
+.title-container {
+  height: 100%;
+}
+
+.primary-color {
+  color: deepskyblue;
+}
+
+/* #title .d-flex {
+  height: 80vh;
+} */
+
+#skills img {
+  width: 50px;
+}
+
+#skills {
+  /* background-color: #76ABAE; */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  text-align: center;
+}
+
+/* .card {
+  background-color: #31363f;
+} */
+
+.card-text {
+  min-height: 5lh;
+  overflow: scroll;
+}
+
+#name {
+  background: linear-gradient(to right, deepskyblue, #5f0fa0);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
